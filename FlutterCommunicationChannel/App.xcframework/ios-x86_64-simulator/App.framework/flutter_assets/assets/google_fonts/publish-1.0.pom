@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.okaythis.okayuidesign</groupId>
+  <artifactId>publish</artifactId>
+  <version>1.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>io.flutter.plugins.pathprovider</groupId>
+      <artifactId>path_provider_release</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>flutter_embedding_release</artifactId>
+      <version>1.0.0-b851c718295a896918dc93cb1ff14f2f895a1b90</version>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>armeabi_v7a_release</artifactId>
+      <version>1.0.0-b851c718295a896918dc93cb1ff14f2f895a1b90</version>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>arm64_v8a_release</artifactId>
+      <version>1.0.0-b851c718295a896918dc93cb1ff14f2f895a1b90</version>
+    </dependency>
+    <dependency>
+      <groupId>io.flutter</groupId>
+      <artifactId>x86_64_release</artifactId>
+      <version>1.0.0-b851c718295a896918dc93cb1ff14f2f895a1b90</version>
+    </dependency>
+  </dependencies>
+</project>

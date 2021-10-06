@@ -1,0 +1,16 @@
+PODS:
+  - FccAbstractCore (1.0.8)
+
+DEPENDENCIES:
+  - FccAbstractCore (= 1.0.8)
+
+SPEC REPOS:
+  trunk:
+    - FccAbstractCore
+
+SPEC CHECKSUMS:
+  FccAbstractCore: 5d7698d33b126272e94b699088cc37ac26669aab
+
+PODFILE CHECKSUM: 87a517f8f77fba6a5201ef8dd5c3d2873714c1bc
+
+COCOAPODS: 1.10.1

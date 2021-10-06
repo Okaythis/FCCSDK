@@ -15,6 +15,8 @@ import FccAbstractCore
 public final class FccApiImpl: NSObject, FccApi {
     
     
+    
+    
     private static var instance: FccApiImpl?
     private var isPrivateChannelInit = false
     internal static let singleton = FccApiImpl()
@@ -110,7 +112,6 @@ public final class FccApiImpl: NSObject, FccApi {
         self.notificationHandler?.registerNotificationReceiver(receiver: FlutterDefaultChannelNotificationReceiver(channelNotificationhandler: self.notificationHandler!))
         self.privateNotificationHandler?.registerNotificationReceiver(receiver: FlutterPrivateChannelNotificationReceiver(channelNotificationhandler: self.privateNotificationHandler!))
     }
-    
     public typealias H = NativeHandler
     public typealias P = Parcel
 }
